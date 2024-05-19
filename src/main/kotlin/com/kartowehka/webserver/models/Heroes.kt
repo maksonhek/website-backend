@@ -9,9 +9,9 @@ data class Heroes constructor(
     @GeneratedValue(strategy =GenerationType.IDENTITY)
     var id: Long? = null,
     var name: String? = null,
-    var image: String? = null,
     var agility: String? = null,
-    var strength: String? =null,
+    var strength: String? = null,
+    var image: String? =null,
     var intelligence: String? = null,
     var skill1: String? = null,
     var skill2: String? = null,
